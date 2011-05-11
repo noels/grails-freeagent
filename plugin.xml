@@ -1,0 +1,24 @@
+<plugin name='freeagent' version='0.1' grailsVersion='1.3.5 &gt; *'>
+  <author>Noel Sharpe</author>
+  <title>Connect to Freeagent API</title>
+  <description>\
+Grails plugin implementation of the freeAgent API www.freeagentcentral.com.  Allows you to create, edit
+and retrieve invoices on Freeagent.
+</description>
+  <documentation>http://grails.org/plugin/grails-freeagent</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>freeagent.ConfigurationService</resource>
+    <resource>freeagent.HttpService</resource>
+    <resource>freeagent.InvoiceService</resource>
+  </resources>
+  <dependencies>
+    <plugin name='hibernate' version='1.3.5' />
+    <plugin name='rest' version='0.6.1' />
+    <plugin name='springcache' version='1.3.1' />
+  </dependencies>
+  <behavior />
+</plugin>

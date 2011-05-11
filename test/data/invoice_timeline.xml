@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice-timeline-items type="array">
+  <invoice_timeline_item>
+    <reference>Abstract Web Design 001</reference>
+    <summary>Payment: Abstract Web Design 001: £1,000.00 received</summary>
+    <description>Jackson Pollock: Abstract Web Design</description>
+    <dated_on>Tue Mar 18 00:00:00 UTC 2008</dated_on>
+    <amount>1000.0</amount>
+  </invoice_timeline_item>
+</invoice-timeline-items>

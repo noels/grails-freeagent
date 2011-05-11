@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts type="array">
+    <contact>
+      <id type="integer">436396</id>
+      <organisation-name>Skynet PLC</organisation-name>
+      <first-name>Someone</first-name>
+      <last-name>Whoisnotme</last-name>
+      <email>someone@example.com</email>
+      <billing-email>bills@example.com</billing-email>
+      <phone-number>01234567890</phone-number>
+      <address1>2nd floor</address1>
+      <town>London</town>
+      <region>Berkshire</region>
+      <postcode>W1 1EC</postcode>
+      <address2>SomeBuilding</address2>
+      <address3>1 West Street</address3>
+      <contact-name-on-invoices type="boolean">true</contact-name-on-invoices>
+      <country>United Kingdom</country>
+      <sales-tax-registration-number>1234132</sales-tax-registration-number>
+      <locale>en</locale>
+      <mobile>0798765432</mobile>
+      <account-balance>1200.0</account-balance>
+      <uses-contact-invoice-sequence type="boolean">false</uses-contact-invoice-sequence>
+    </contact>
+    <contact>
+      <id type="integer">436396</id>
+      <organisation-name>ACME LTD</organisation-name>
+      <first-name>SomeoneElse</first-name>
+      <last-name>Whoisnotmealso</last-name>
+      <email>someoneelse@example.com</email>
+      <billing-email>otherbills@example.com</billing-email>
+      <phone-number>01234567890</phone-number>
+      <address1>3rd floor</address1>
+      <town>London</town>
+      <region>Berkshire</region>
+      <postcode>W1 1EC</postcode>
+      <address2>SomeBuilding</address2>
+      <address3>1 West Street</address3>
+      <contact-name-on-invoices type="boolean">true</contact-name-on-invoices>
+      <country>United Kingdom</country>
+      <sales-tax-registration-number>1234133</sales-tax-registration-number>
+      <locale>en</locale>
+      <mobile>0798765431</mobile>
+      <account-balance>200.0</account-balance>
+      <uses-contact-invoice-sequence type="boolean">false</uses-contact-invoice-sequence>
+    </contact>
+</contacts>

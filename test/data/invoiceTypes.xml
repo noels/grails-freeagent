@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice-types>
+  <income>
+      <type nominal-code="001">Sales</type>
+      <type nominal-code="002">Other Sales</type>
+  </income>
+</invoice-types>

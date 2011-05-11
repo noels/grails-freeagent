@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoices type="array">
+    <invoice>
+      <id type="integer">85</id>
+      <contact-id type="integer">10</contact-id>
+      <project-id type="integer">16</project-id>
+      <dated-on type="datetime">2008-02-17T00:00:00Z</dated-on>
+      <reference>Abstract Web Design 001</reference>
+      <currency>GBP</currency>
+      <exchange-rate>1.0</exchange-rate>
+      <net-value type="decimal">1000.0</net-value>
+      <sales-tax-value type="decimal">10.0</sales-tax-value>
+      <second-sales-tax-value type="decimal">7.50</second-sales-tax-value>
+      <status>Sent</status>
+      <comments>This is a comment</comments>
+      <discount-percent type="decimal" nil="true">55</discount-percent>
+      <po-reference>Purchace Order Reference 123</po-reference>
+      <omit-header type="boolean">false</omit-header>
+      <payment-terms-in-days>30</payment-terms-in-days>
+
+      <written-off-date type="datetime" nil="true"></written-off-date>
+      <invoice-items type="array">
+        <invoice-item>
+          <id type="integer">607</id>
+          <invoice-id type="integer">85</invoice-id>
+          <project-id type="integer" nil="true">16</project-id>
+          <item-type>Services</item-type>
+          <description>Setting up hosting</description>
+          <price type="decimal">160.0</price>
+          <quantity type="decimal">1.0</quantity>
+          <sales-tax-rate type="decimal">10.0</sales-tax-rate>
+          <second-sales-tax-rate type="decimal">7.5</second-sales-tax-rate>
+          <nominal-code>001</nominal-code>
+        </invoice-item>
+        <invoice-item>
+          <id type="integer">611</id>
+          <invoice-id type="integer">85</invoice-id>
+          <project-id type="integer" nil="true"></project-id>
+          <item-type>Hours</item-type>
+          <description>Coding the templates</description>
+          <price type="decimal">40</price>
+          <quantity type="decimal">30</quantity>
+          <sales-tax-rate type="decimal">17.5</sales-tax-rate>
+          <second-sales-tax-rate type="decimal">0.0</second-sales-tax-rate>
+          <nominal-code>001</nominal-code>
+        </invoice-item>
+      </invoice-items>
+    </invoice>
+    <invoice>
+      <id type="integer">86</id>
+      <contact-id type="integer">10</contact-id>
+      <project-id type="integer">16</project-id>
+      <dated-on type="datetime">2008-02-19T00:00:00Z</dated-on>
+      <reference>Abstract Web Design 002</reference>
+      <currency>GBP</currency>
+      <exchange-rate>1.0</exchange-rate>
+      <net-value type="decimal">1100.0</net-value>
+      <sales-tax-value type="decimal">0.0</sales-tax-value>
+      <second-sales-tax-value type="decimal">0.0</second-sales-tax-value>
+      <status>Sent</status>
+      <comments></comments>
+      <discount-percent type="decimal" nil="true"></discount-percent>
+      <po-reference>Purchace Order Reference 123</po-reference>
+      <omit-header type="boolean">false</omit-header>
+      <payment-terms-in-days>30</payment-terms-in-days>
+
+      <written-off-date type="datetime" nil="true"></written-off-date>
+      <invoice-items type="array">
+        <invoice-item>
+          <id type="integer">607</id>
+          <invoice-id type="integer">85</invoice-id>
+          <project-id type="integer" nil="true"></project-id>
+          <item-type>Services</item-type>
+          <description>Setting up hosting</description>
+          <price type="decimal">160.0</price>
+          <quantity type="decimal">1.0</quantity>
+          <sales-tax-rate type="decimal">17.5</sales-tax-rate>
+          <second-sales-tax-rate type="decimal">0.0</second-sales-tax-rate>
+          <nominal-code>001</nominal-code>
+        </invoice-item>
+        <invoice-item>
+          <id type="integer">611</id>
+          <invoice-id type="integer">85</invoice-id>
+          <project-id type="integer" nil="true"></project-id>
+          <item-type>Hours</item-type>
+          <description>Coding the templates</description>
+          <price type="decimal">40</price>
+          <quantity type="decimal">30</quantity>
+          <sales-tax-rate type="decimal">17.5</sales-tax-rate>
+          <second-sales-tax-rate type="decimal">0.0</second-sales-tax-rate>
+          <nominal-code>001</nominal-code>
+        </invoice-item>
+      </invoice-items>
+    </invoice>
+</invoices>
