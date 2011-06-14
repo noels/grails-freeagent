@@ -1,4 +1,4 @@
-<plugin name='freeagent' version='0.1' grailsVersion='1.3.5 &gt; *'>
+<plugin name='freeagent' version='0.1' grailsVersion='1.3.7 &gt; *'>
   <author>Noel Sharpe</author>
   <title>Connect to Freeagent API</title>
   <description>\
@@ -11,14 +11,12 @@ and retrieve invoices on Freeagent.
     <resource>Config</resource>
     <resource>DataSource</resource>
     <resource>UrlMappings</resource>
+    <resource>freeagent.InvoiceController</resource>
     <resource>freeagent.ConfigurationService</resource>
+    <resource>freeagent.ContactService</resource>
     <resource>freeagent.HttpService</resource>
     <resource>freeagent.InvoiceService</resource>
   </resources>
-  <dependencies>
-    <plugin name='hibernate' version='1.3.5' />
-    <plugin name='rest' version='0.6.1' />
-    <plugin name='springcache' version='1.3.1' />
-  </dependencies>
+  <dependencies />
   <behavior />
 </plugin>
