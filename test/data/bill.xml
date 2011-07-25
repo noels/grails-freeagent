@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bill>
+  <nominal-code>602</nominal-code>
+  <cached-paid-value type="decimal">2050.0</cached-paid-value>
+  <comments>A big pile of stuff</comments>
+  <contact-id type="integer">1</contact-id>
+  <dated-on type="datetime">2006-10-01T00:00:00Z</dated-on>
+  <depreciation-schedule>3 Years</depreciation-schedule>
+  <due-date type="datetime">2006-10-01T00:00:00Z</due-date>
+  <id type="integer">1</id>
+  <manual-sales-tax-amount type="decimal">0.0</manual-sales-tax-amount>
+  <rebill-to-project-id type="integer" nil="true"></rebill-to-project-id>
+  <rebilled-on-invoice-item-id type="integer" nil="true"></rebilled-on-invoice-item-id>
+  <recurring nil="true"></recurring>
+  <recurring-end-date type="date" nil="true"></recurring-end-date>
+  <reference>JS0243</reference>
+  <sales-tax-rate type="decimal">17.5</sales-tax-rate>
+  <second-sales-tax-rate type="decimal">0.0</second-sales-tax-rate>
+  <total-value type="decimal">2050.0</total-value>
+</bill>
