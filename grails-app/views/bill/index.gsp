@@ -1,3 +1,3 @@
 <g:each  in="bills" var="bill">
-    <%bill.dump()?>
+    <%bill.dump()%>
 </g:each>
