@@ -7,7 +7,7 @@ import freeagent.domain.InvoiceItem
 class InvoiceService {
     HttpService httpService
 
-    public get(String view = 'all'){
+    public getList(String view = 'all'){
         def invoices = []
         def resp = httpService.get('/invoices', [view:view])
         resp.children().each{ invoice ->
@@ -17,6 +17,14 @@ class InvoiceService {
         }
         invoices
     }
+
+    public get(Integer id) {
+        def resp = httpService.get("/invoices/${id}")
+        def inv = new Invoice()
+        inv.bind(resp)
+        inv
+    }
+
 
     public getInvoiceTypes(){
         def invoiceTypes = [:]

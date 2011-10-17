@@ -27,6 +27,7 @@ class Invoice {
 
     static final String FREEAGENT_DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss'Z'"
     static final String[] ITEM_TYPES = ['Hours','Days','Months','Years','Products','Services','Expenses','Discount','Credit','Comment']
+    static final String FREEAGENT_STATUS_DRAFT = 'Draft'
     public Invoice(){
         invoiceItems = new ArrayList<InvoiceItem>()
     }
