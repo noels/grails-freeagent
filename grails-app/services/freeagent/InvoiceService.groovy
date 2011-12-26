@@ -79,9 +79,15 @@ class InvoiceService {
      */
     public putInvoice(invoice){
         def invXml = invoice.toXML()
-        def location = httpService.post("/invoices", invXml)
-        //the last part of the url is the new invoice item id
-        location.value.split('/')[-1]
+        def location
+        if (invoice.id) {
+            httpService.put("/invoices/${invoice.id}", invXml)
+            return invoice.id
+        } else {
+            location = httpService.post("/invoices", invXml)
+            //the last part of the url is the new invoice item id
+            return location.value.split('/')[-1]
+        }
     }
 
     public markInvoiceAsSent(invoice){
