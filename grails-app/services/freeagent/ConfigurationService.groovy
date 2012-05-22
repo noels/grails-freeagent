@@ -1,20 +1,19 @@
 package freeagent
 
 class ConfigurationService {
-    def config
-    def grailsApplication
+    def config = org.codehaus.groovy.grails.commons.ConfigurationHolder.config
 
 
     def getFreeagentUserId() {
-        grailsApplication.config?.freeagent?.userId
+        config.freeagent?.userId
     }
 
     def getFreeagentPassword() {
-        grailsApplication.config?.freeagent?.password
+        config.freeagent?.password
     }
 
     def getFreeagentURI(){
-        grailsApplication.config?.freeagent?.uri
+        config.freeagent?.uri
     }
 
 }

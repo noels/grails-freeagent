@@ -53,7 +53,7 @@
       <dated-on type="datetime">2008-02-19T00:00:00Z</dated-on>
       <reference>Abstract Web Design 002</reference>
       <currency>GBP</currency>
-      <exchange-rate>1.0</exchange-rate>
+      <exchange-rate>2.0</exchange-rate>
       <net-value type="decimal">1100.0</net-value>
       <sales-tax-value type="decimal">0.0</sales-tax-value>
       <second-sales-tax-value type="decimal">0.0</second-sales-tax-value>

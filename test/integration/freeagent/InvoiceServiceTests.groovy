@@ -28,7 +28,7 @@ class InvoiceServiceTests extends GrailsUnitTestCase {
             mockWeb.status = 200
 
 
-            def invoices = invoiceService.get()
+            def invoices = invoiceService.get(85)
             //test invoice properties
             assert invoices.size() == 2
             assert invoices[0].id == 85

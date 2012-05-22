@@ -20,9 +20,13 @@ class InvoiceService {
 
     public get(Integer id) {
         def resp = httpService.get("/invoices/${id}")
-        def inv = new Invoice()
-        inv.bind(resp)
-        inv
+        def invs = []
+        resp.invoice.each{invoice ->
+            def inv = new Invoice()
+            inv.bind(invoice)
+            invs << inv
+        }
+        invs
     }
 
 

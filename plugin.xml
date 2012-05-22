@@ -1,4 +1,4 @@
-<plugin name='freeagent' version='0.1' grailsVersion='1.3.7 &gt; *'>
+<plugin name='freeagent' version='0.1' grailsVersion='1.3.5 &gt; *'>
   <author>Noel Sharpe</author>
   <title>Connect to Freeagent API</title>
   <description>\
@@ -6,17 +6,32 @@ Grails plugin implementation of the freeAgent API www.freeagentcentral.com.  All
 and retrieve invoices on Freeagent.
 </description>
   <documentation>http://grails.org/plugin/grails-freeagent</documentation>
+  <type>FreeagentGrailsPlugin</type>
   <resources>
-    <resource>BuildConfig</resource>
-    <resource>Config</resource>
-    <resource>DataSource</resource>
-    <resource>UrlMappings</resource>
+    <resource>freeagent.BillController</resource>
     <resource>freeagent.InvoiceController</resource>
+    <resource>freeagent.BillService</resource>
     <resource>freeagent.ConfigurationService</resource>
     <resource>freeagent.ContactService</resource>
     <resource>freeagent.HttpService</resource>
     <resource>freeagent.InvoiceService</resource>
   </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='http://repository.codehaus.org' url='http://repository.codehaus.org/' />
+    <repository name='http://grails.org/plugins' url='http://grails.org/plugins' />
+    <repository name='http://m2repo.spockframework.org/ext/' url='http://m2repo.spockframework.org/ext/' />
+    <repository name='http://m2repo.spockframework.org/snapshots/' url='http://m2repo.spockframework.org/snapshots/' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
   <dependencies />
+  <plugins />
+  <runtimePluginRequirements>
+    <plugin name='rest' version='0.6.1' />
+    <plugin name='springcache' version='1.3.1' />
+  </runtimePluginRequirements>
   <behavior />
 </plugin>
